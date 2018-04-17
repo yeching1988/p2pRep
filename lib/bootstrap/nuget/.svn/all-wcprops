@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/nuget
+END
+MyGet.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/nuget/MyGet.ps1
+END
+bootstrap.nuspec
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/nuget/bootstrap.nuspec
+END
+bootstrap.less.nuspec
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/nuget/bootstrap.less.nuspec
+END

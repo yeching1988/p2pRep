@@ -1,0 +1,1 @@
+{"version":3,"sources":["publics.less"],"names":[],"mappings":"AACA;EACI,sBAAA","sourcesContent":["@color:blue;\r\nbody{\r\n    background-color: @color;\r\n}\r\n"],"file":"../publics.css"}

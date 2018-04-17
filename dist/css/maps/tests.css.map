@@ -1,0 +1,1 @@
+{"version":3,"file":"../tests.css","sources":["tests.scss"],"sourcesContent":["$color:blue;\r\n$size:30px;\r\nbody{\r\n    background-color:$color;\r\n    font-size: $size;\r\n}\r\n"],"names":[],"mappings":"AAEA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAHb,IAAI;EAIP,SAAS,EAHP,IAAI,GAIT"}

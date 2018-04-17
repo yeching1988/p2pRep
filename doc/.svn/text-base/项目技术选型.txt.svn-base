@@ -1,0 +1,17 @@
+Html5/css3/
+less/sass/
+jquery/javascript/ajax
+bootstrap
+gulp/bower/npm
+
+后端
+nodejs/mongodb
+
+配置文件路径
+bower.json
+.bowerrc
+
+由于bootstrap是依赖jquery，所以会自动安装jquery
+bower init
+bower i bootstrap#3.3.7 -o
+

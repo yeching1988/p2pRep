@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event
+END
+focusin.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event/focusin.js
+END
+alias.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event/alias.js
+END
+support.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event/support.js
+END
+ajax.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event/ajax.js
+END
+trigger.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/jquery/src/event/trigger.js
+END

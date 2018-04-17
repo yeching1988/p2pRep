@@ -1,0 +1,17 @@
+{
+  "name": "p2pCode",
+  "authors": [
+    "ye-ching@163.com"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://www.5200it.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

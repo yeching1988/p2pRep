@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/dist/js
+END
+npm.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/dist/js/npm.js
+END
+bootstrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/dist/js/bootstrap.js
+END
+bootstrap.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/dist/js/bootstrap.min.js
+END

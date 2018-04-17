@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt
+END
+.jshintrc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/.jshintrc
+END
+bs-lessdoc-parser.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/bs-lessdoc-parser.js
+END
+change-version.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/change-version.js
+END
+bs-commonjs-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/bs-commonjs-generator.js
+END
+sauce_browsers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/sauce_browsers.yml
+END
+bs-glyphicons-data-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/bs-glyphicons-data-generator.js
+END
+npm-shrinkwrap.json
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/npm-shrinkwrap.json
+END
+bs-raw-files-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/bs-raw-files-generator.js
+END
+configBridge.json
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/p2p/!svn/ver/8/trunk/p2pCode/lib/bootstrap/grunt/configBridge.json
+END

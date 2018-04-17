@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>p2p响应式金融借贷平台</title>
+		<!--1.添加视口-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<!--2.引入bootstrap核心样式-->
+		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--自己定义修改样式，必须放在最靠近head地方-->
+		<link rel="stylesheet" href="./dist/css/index.css"/>
+		<!--显示sass修改后对应的tests.css样式-->
+		<!--<link rel="stylesheet" href="./dist/css/tests.css"/>-->
+		<!--3. 让IE8兼容bootstrap-->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--4.引入jquery库-->
+		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
+		<!--5.引入bootstrapjs库-->
+		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--页头-->
+		<header>
+			<!--顶部导航条-->
+			<nav class="navbar navbar-inverse">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86754321</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#">首页</a></li>
+			        <li><a href="#">个人中心</a></li>
+			        <li><a href="#">会员登录</a></li>
+			        <li><a href="#">会员注册</a></li>
+			        <li><a href="#">帮助中心</a></li>
+			        <li><a href="#">联系客户</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+            <!--主导航条-->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#"><img src="./images/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">首页</a></li>
+			        <li><a href="#">我要投资</a></li>
+			        <li><a href="#">我要借款</a></li>
+			        <li><a href="#">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>    
+			        <li><a href="#">关于我们</a></li>
+			        <li><a href="#">新闻动态</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+			
+		</header>
+		<!--轮播-->
+		<div class="container">
+		    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!--小圆点控制器 -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+			
+				<!--  轮播图片内容-->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/banner01.jpg" alt="">
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/banner02.jpg" alt="">
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div>
+				<!-- 左右控制按钮 -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!--特色信息-->
+		<div>
+			
+		</div>
+		<!--借款信息-->
+		<div class="container el-feature">
+			<dl class="el-feature-item1">
+				<dt>投资理财</dt>
+				<dd>稳定投资、高收益、短期限，易融贷先行赔付，保障投资人权益。</dd>
+			</dl>
+			<dl class="el-feature-item2">
+				<dt>投资理财</dt>
+				<dd>稳定投资、高收益、短期限，易融贷先行赔付，保障投资人权益。</dd>
+			</dl>
+			<dl class="el-feature-item3">
+				<dt>投资理财</dt>
+				<dd>稳定投资、高收益、短期限，易融贷先行赔付，保障投资人权益。</dd>
+			</dl>
+		</div>
+		<!--资讯和帮助-->
+		<div></div>
+		<!--页尾-->
+		<footer></footer>
+		
+		<script>
+			$(".navbar-right li").on("click",function(){
+				$(this).addClass("active").siblings("li").removeClass("active");
+			});
+		</script>
+	</body>
+</html>
