@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["global.less"],"sourcesContent":["//公共的变量\r\n@color_blue:#3aabf7;\r\n@color_fff:#fff;\r\n@color_bluedark:#2e8ece;\r\n@color_gray:#999;\r\n@color_lightGray:#f0f0f0;"],"file":"../global.css"}

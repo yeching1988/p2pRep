@@ -4,8 +4,8 @@ V 18
 /svn/p2p/!svn/act/
 K 25
 svn:wc:ra_dav:version-url
-V 27
-/svn/p2p/!svn/ver/9/codeGit
+V 28
+/svn/p2p/!svn/ver/13/codeGit
 END
 .bowerrc
 K 25
@@ -16,8 +16,8 @@ END
 gulpfile.js
 K 25
 svn:wc:ra_dav:version-url
-V 39
-/svn/p2p/!svn/ver/9/codeGit/gulpfile.js
+V 40
+/svn/p2p/!svn/ver/13/codeGit/gulpfile.js
 END
 package.json
 K 25
@@ -31,6 +31,12 @@ svn:wc:ra_dav:version-url
 V 38
 /svn/p2p/!svn/ver/9/codeGit/bower.json
 END
+register.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/p2p/!svn/ver/15/codeGit/register.html
+END
 package-lock.json
 K 25
 svn:wc:ra_dav:version-url
@@ -40,6 +46,18 @@ END
 index.html
 K 25
 svn:wc:ra_dav:version-url
+V 39
+/svn/p2p/!svn/ver/15/codeGit/index.html
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
 V 38
-/svn/p2p/!svn/ver/9/codeGit/index.html
+/svn/p2p/!svn/ver/13/codeGit/README.md
+END
+template.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/p2p/!svn/ver/15/codeGit/template.html
 END

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>p2p响应式金融借贷平台-用户注册</title>
+		<!--1.添加视口-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<!--2.引入bootstrap核心样式-->
+		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--引入图标字体-->
+		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.css"/
+		<!--自己定义修改样式，必须放在最靠近head地方-->
+		<link rel="stylesheet" href="./dist/css/register.css"/>
+		<!--显示sass修改后对应的tests.css样式-->
+		<!--<link rel="stylesheet" href="./dist/css/tests.css"/>-->
+		<!--3. 让IE8兼容bootstrap-->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body style="height: 4000px;">
+		<!--4.引入jquery库-->
+		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
+		<!--5.引入bootstrapjs库-->
+		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--页头-->
+		<header>
+			<!--顶部导航条-->
+			<nav class="navbar navbar-inverse">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86754321</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><i class="fa fa-home"></i>首页</a></li>
+			        <li><a href="#"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="#"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="#"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
+			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+           <!-- <!--主导航条-->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#"><img src="./images/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">首页</a></li>
+			        <li><a href="#">我要投资</a></li>
+			        <li><a href="#">我要借款</a></li>
+			        <li><a href="#">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>    
+			        <li><a href="#">关于我们</a></li>
+			        <li><a href="#">新闻动态</a></li>
+			      </ul>
+			  </div>
+			</nav>
+			
+		</header>
+		
+		<!--页尾-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!--版权信息-->
+					<div class="col-lg-8 col-md-8 col-xs-12">
+						<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+						<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+						<p>蜀ICP备14030149号-1  蜀公网安备510114990541</p>
+					</div>
+					<!--官方微博-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微博:</p>
+						<p><img class="img-responsive" src="images/sina.png"/></p>
+						<p><img class="img-responsive" src="images/tecent.png"/></p></p>
+					</div>
+					<!--官方微信-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微信:</p>
+						<p><img class="img-responsive" src="images/wx.jpg"/></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--模板内容开始-->
+		<div class="container">
+			模板内容开始
+		</div>
+		<script>
+			$(".navbar-right li").on("click",function(){
+				$(this).addClass("active").siblings("li").removeClass("active");
+			});
+			$(function () {
+			  $('[data-toggle="tooltip"]').tooltip();
+			})
+		</script>
+	</body>
+</html>

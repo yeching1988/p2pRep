@@ -1,14 +1,14 @@
 10
 
 dir
-11
+14
 http://pc-20171222pppt:81/svn/p2p/codeGit
 http://pc-20171222pppt:81/svn/p2p
 
 
 
-2018-04-16T07:57:30.368877Z
-9
+2018-04-17T10:40:46.916866Z
+13
 zhangsan
 has-props
 
@@ -25,6 +25,9 @@ has-props
 
 
 30156ae3-1c31-cb4a-9143-68d935d0eaf5
+
+jquery
+dir
 
 .bowerrc
 file
@@ -60,16 +63,19 @@ zhangsan
 
 27
 
+.git
+dir
+
 gulpfile.js
 file
 
 
 
 
-2018-04-16T07:29:44.761610Z
-d19d68030732c105c9ed48281508e5ac
-2018-04-16T07:57:30.368877Z
-9
+2018-04-17T01:55:52.443943Z
+92be62327191e5c9bc23744770ed0e2e
+2018-04-17T10:40:46.916866Z
+13
 zhangsan
 
 
@@ -92,7 +98,7 @@ zhangsan
 
 
 
-2073
+2614
 
 package.json
 file
@@ -165,6 +171,40 @@ zhangsan
 
 271
 
+register.html
+file
+15
+
+
+
+2018-04-17T12:18:16.111421Z
+70b5f72ad2657e072c5f90c620048374
+2018-04-18T03:06:30.471519Z
+15
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5070
+
 package-lock.json
 file
 
@@ -201,14 +241,14 @@ zhangsan
 
 index.html
 file
+15
 
 
 
-
-2018-04-16T07:01:26.275462Z
-c52973ac74a8bdc55154a1200ae4b6b6
-2018-04-16T07:57:30.368877Z
-9
+2018-04-18T02:54:15.704493Z
+cd0aa969395382e494b48d9f2ec9b367
+2018-04-18T03:06:30.471519Z
+15
 zhangsan
 
 
@@ -231,5 +271,76 @@ zhangsan
 
 
 
-176
+13004
+
+README.md
+file
+
+
+
+
+2018-04-17T02:38:18.489569Z
+b70cc7400d5d545ab0eecb73cc9e548e
+2018-04-17T10:40:46.916866Z
+13
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65
+
+bootstrap
+dir
+
+template.html
+file
+15
+
+
+
+2018-04-17T12:19:14.799778Z
+de1a3aa1e8f895cfd2314384b8aac0c8
+2018-04-18T03:06:30.471519Z
+15
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5059
 
