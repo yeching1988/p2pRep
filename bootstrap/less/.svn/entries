@@ -1,7 +1,7 @@
 10
 
 dir
-14
+17
 http://pc-20171222pppt:81/svn/p2p/codeGit/bootstrap/less
 http://pc-20171222pppt:81/svn/p2p
 
@@ -502,14 +502,14 @@ zhangsan
 
 3662
 
-theme.less
+component-animations.less
 file
 
 
 
 
-2018-04-16T12:22:34.217525Z
-786caab8fa903d3b302343cb7148027a
+2018-04-16T12:22:34.090518Z
+f7605695861c6f68a422d5fa9a936845
 2018-04-17T10:40:46.916866Z
 13
 zhangsan
@@ -534,7 +534,7 @@ zhangsan
 
 
 
-8197
+666
 
 labels.less
 file
@@ -570,14 +570,14 @@ zhangsan
 
 1079
 
-component-animations.less
+theme.less
 file
 
 
 
 
-2018-04-16T12:22:34.090518Z
-f7605695861c6f68a422d5fa9a936845
+2018-04-16T12:22:34.217525Z
+786caab8fa903d3b302343cb7148027a
 2018-04-17T10:40:46.916866Z
 13
 zhangsan
@@ -602,41 +602,7 @@ zhangsan
 
 
 
-666
-
-thumbnails.less
-file
-
-
-
-
-2018-04-16T12:22:34.218525Z
-2f0e86101267acacdd1466ea36044f3e
-2018-04-17T10:40:46.916866Z
-13
-zhangsan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-753
+8197
 
 responsive-utilities.less
 file
@@ -671,6 +637,40 @@ zhangsan
 
 
 4262
+
+thumbnails.less
+file
+
+
+
+
+2018-04-16T12:22:34.218525Z
+2f0e86101267acacdd1466ea36044f3e
+2018-04-17T10:40:46.916866Z
+13
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+753
 
 navbar.less
 file
@@ -740,40 +740,6 @@ zhangsan
 
 1401
 
-.csslintrc
-file
-
-
-
-
-2018-04-16T12:22:34.074517Z
-903ca10764e09c83207ac5a9c19a7b33
-2018-04-17T10:40:46.916866Z
-13
-zhangsan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-456
-
 bootstrap.less
 file
 
@@ -808,14 +774,14 @@ zhangsan
 
 1291
 
-modals.less
+.csslintrc
 file
 
 
 
 
-2018-04-16T12:22:34.175523Z
-bbf6f38171d49cf5d993521ec2b0af12
+2018-04-16T12:22:34.074517Z
+903ca10764e09c83207ac5a9c19a7b33
 2018-04-17T10:40:46.916866Z
 13
 zhangsan
@@ -840,7 +806,41 @@ zhangsan
 
 
 
-3527
+456
+
+glyphicons.less
+file
+
+
+
+
+2018-04-16T12:22:34.095518Z
+0eb21c0945a9fa86089de5c87bb34bf4
+2018-04-17T10:40:46.916866Z
+13
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19807
 
 jumbotron.less
 file
@@ -876,14 +876,14 @@ zhangsan
 
 1152
 
-glyphicons.less
+modals.less
 file
 
 
 
 
-2018-04-16T12:22:34.095518Z
-0eb21c0945a9fa86089de5c87bb34bf4
+2018-04-16T12:22:34.175523Z
+bbf6f38171d49cf5d993521ec2b0af12
 2018-04-17T10:40:46.916866Z
 13
 zhangsan
@@ -908,7 +908,7 @@ zhangsan
 
 
 
-19807
+3527
 
 panels.less
 file

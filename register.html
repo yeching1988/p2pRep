@@ -20,7 +20,7 @@
 	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	</head>
-	<body style="height: 4000px;">
+	<body>
 		<!--4.引入jquery库-->
 		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
 		<!--5.引入bootstrapjs库-->
@@ -73,20 +73,55 @@
 			      </ul>
 			  </div>
 			</nav>
-			
 		</header>
-		
+		<!--注册内容开始-->
+		<div class="container">
+			<div class="panel panel-default" id="register">
+			    <div class="panel-heading">用户注册</div>
+			    <div class="panel-body">
+			        <h4>请填写注册信息，点击“提交注册”即可完成注册！</h4>
+			        <form class="form-horizontal">
+					  <div class="form-group">
+					    <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+					    <div class="col-sm-10">
+					      <input type="email" class="form-control col-lg-3" id="inputEmail3">
+					      <p id="userCode">用户名为2~16位字母，数字，符号或中文</p>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+					    <div class="col-sm-10">
+					      <input type="password" class="form-control" id="inputPassword3">
+					      <p>密码为6~16位字符组成,采用数字、字母、符号安全性更高</p>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="inputPassword3" class="col-sm-2 control-label">确认密码</label>
+					    <div class="col-sm-10">
+					      <input type="password" class="form-control" id="inputPassword4">
+					      <p>请再次填写密码</p>
+					    </div>
+					  </div>
+					  <p class="agree">
+					  	<button type="button" class="btn btn-success">同意协议并注册</button>
+					  	<a href="#">已有账号，马上登录</a>
+					  </p>
+					  <p class="agree"><a href="#"><<使用协议说明书>></a></p>
+					</form>
+			    </div>
+			</div>
+		</div>
 		<!--页尾-->
 		<footer>
 			<div class="container">
 				<div class="row">
 					<!--版权信息-->
 					<div class="col-lg-8 col-md-8 col-xs-12">
-						<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
-						<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
-						<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
-						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
-						<p>蜀ICP备14030149号-1  蜀公网安备510114990541</p>
+						<p>怎样存钱利息高、贷款买房流程、反担保是什么意思、按揭成数是什么意思、1万元一年利息是多少</p>
+						<p>版权所有： 2006-2018成都融金资有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段168号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@163.com</p>
+						<p><a href="#">蜀ICP备14030149号-1</a>  &emsp;<a href="#">蜀公网安备510114990541</a></p>
 					</div>
 					<!--官方微博-->
 					<div class="col-lg-2 col-md-2 col-xs-6">
@@ -97,15 +132,12 @@
 					<!--官方微信-->
 					<div class="col-lg-2 col-md-2 col-xs-6">
 						<p>官方微信:</p>
-						<p><img class="img-responsive" src="images/wx.jpg"/></p>
+						<p><img class="img-responsive" src="images/single.png"/></p>
 					</div>
 				</div>
 			</div>
 		</footer>
-		<!--模板内容开始-->
-		<div class="container">
-			模板内容开始
-		</div>
+		
 		<script>
 			$(".navbar-right li").on("click",function(){
 				$(this).addClass("active").siblings("li").removeClass("active");

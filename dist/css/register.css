@@ -38,10 +38,36 @@ body {
   color: #2e8ece;
   background-color: #e7e7e7;
 }
+#register .panel-body {
+  width: 600px;
+  margin: 0 auto;
+}
+#register .panel-body h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+#register form .form-group p {
+  margin-top: 10px;
+}
+#register #userCode {
+  padding-top: 35px;
+}
+#register form .agree {
+  text-align: center;
+}
+#register form input {
+  width: 460px;
+}
+#register form .agree button {
+  margin-right: 30px;
+}
 footer {
   background-color: #F0F0F0;
   padding: 30px 0;
   margin-top: 20px;
+}
+footer .container p a {
+  color: #2e8ece;
 }
 
 /*# sourceMappingURL=maps/register.css.map */
