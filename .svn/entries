@@ -1,14 +1,14 @@
 10
 
 dir
-17
+18
 http://pc-20171222pppt:81/svn/p2p/codeGit
 http://pc-20171222pppt:81/svn/p2p
 
 
 
-2018-04-18T03:10:11.608167Z
-16
+2018-04-19T13:28:53.214419Z
+18
 zhangsan
 has-props
 
@@ -63,9 +63,6 @@ zhangsan
 
 27
 
-.git
-dir
-
 gulpfile.js
 file
 
@@ -100,16 +97,16 @@ zhangsan
 
 2614
 
-package.json
+personCent.html
 file
 
 
 
 
-2018-04-16T06:59:41.571473Z
-84f8bdfe515181b607b1a94eaa8a9787
-2018-04-16T07:57:30.368877Z
-9
+2018-04-18T08:03:23.368964Z
+7596955477e30b40de6858245b596325
+2018-04-19T13:28:53.214419Z
+18
 zhangsan
 
 
@@ -132,10 +129,7 @@ zhangsan
 
 
 
-535
-
-temp
-dir
+6663
 
 bower.json
 file
@@ -177,10 +171,10 @@ file
 
 
 
-2018-04-17T12:18:16.111421Z
-70b5f72ad2657e072c5f90c620048374
-2018-04-18T03:06:30.471519Z
-15
+2018-04-18T07:38:46.891514Z
+090b854b7bdae75c24bf925adc796808
+2018-04-19T13:28:53.214419Z
+18
 zhangsan
 
 
@@ -203,7 +197,7 @@ zhangsan
 
 
 
-5070
+6661
 
 package-lock.json
 file
@@ -239,40 +233,6 @@ zhangsan
 
 278332
 
-index.html
-file
-
-
-
-
-2018-04-18T02:54:15.704493Z
-cd0aa969395382e494b48d9f2ec9b367
-2018-04-18T03:06:30.471519Z
-15
-zhangsan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13004
-
 README.md
 file
 
@@ -307,19 +267,19 @@ zhangsan
 
 65
 
-bootstrap
+.git
 dir
 
-template.html
+package.json
 file
 
 
 
 
-2018-04-17T12:19:14.799778Z
-de1a3aa1e8f895cfd2314384b8aac0c8
-2018-04-18T03:06:30.471519Z
-15
+2018-04-16T06:59:41.571473Z
+84f8bdfe515181b607b1a94eaa8a9787
+2018-04-16T07:57:30.368877Z
+9
 zhangsan
 
 
@@ -342,5 +302,113 @@ zhangsan
 
 
 
-5059
+535
+
+temp
+dir
+
+index.html
+file
+
+
+
+
+2018-04-18T03:17:35.105534Z
+3b24de022c0d1369c138a356e7bac484
+2018-04-19T13:28:53.214419Z
+18
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13037
+
+login.html
+file
+
+
+
+
+2018-04-18T07:55:32.891054Z
+cf312084540c915bb48061491f0f7739
+2018-04-19T13:28:53.214419Z
+18
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6072
+
+bootstrap
+dir
+
+template.html
+file
+
+
+
+
+2018-04-18T07:34:34.981106Z
+1ec95dd0d3091fe33df265f1da0ae185
+2018-04-19T13:28:53.214419Z
+18
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5130
 

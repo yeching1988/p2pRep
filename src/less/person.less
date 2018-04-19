@@ -1,0 +1,68 @@
+//引入公共部分
+@import url("public.less");
+@import url("header.less");
+@import url("global.less");
+body{
+    padding: 0;
+    margin: 0;
+}
+//个人中心样式开始
+//左侧部分开始
+#leftSide{
+    width:290px;
+    margin-bottom: 30px;
+}
+#leftSide .panel-group{
+    height: 630px;
+}
+#leftSide .panel-title a{
+    color:@color_bluedark;
+}
+#leftSide .panel-default{
+    height: 130px;
+}
+#leftSide .panel-body li{
+    height: 18px;
+}
+#leftSide #collapseThree li:nth-of-type(1){
+    background-color: darkblue;
+}
+//右侧部分开始
+#rightSide{
+    width:845px;
+    height: 555px;
+    margin-bottom: 30px;
+}
+#rightSide .rightHead{
+    margin-top: 15px;
+}
+#rightSide .rightHead img{
+    padding: 10px;
+    width:150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+#rightSide .rightHead .rightText{
+    height: 150px;
+}
+#rightSide .rightHead .rightText p{
+    height: 30px;
+    line-height: 30px;
+}
+#rightSide .rightCash{
+    border-top:1px solid #ccc;
+    margin-top: 35px;
+}
+#rightSide .rightCash div{
+    margin: 20px 0;
+}
+#rightSide .rightCert{
+    margin-top: 35px;
+    border-bottom: 1px solid #ccc;
+}
+#rightSide .rightCert .rightPic{
+    height: 130px;
+}
+//引入页脚
+@import url("footer.less");

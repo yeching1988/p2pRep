@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>p2p响应式金融借贷平台-用户登录</title>
+		<!--1.添加视口-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<!--2.引入bootstrap核心样式-->
+		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--引入bootstrap的验证css插件-->
+		<link rel="stylesheet" href="lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css" />
+		<!--引入图标字体-->
+		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.css"/
+		<!--自己定义修改样式，必须放在最靠近head地方-->
+		<link rel="stylesheet" href="./dist/css/login.css"/>
+		<!--显示sass修改后对应的tests.css样式-->
+		<!--<link rel="stylesheet" href="./dist/css/tests.css"/>-->
+		<!--3. 让IE8兼容bootstrap-->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body style="height: 4000px;">
+		<!--4.引入jquery库-->
+		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
+		<!--5.引入bootstrapjs库-->
+		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--引入bootstrap的验证js插件-->
+		<script type="text/javascript" src="lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+		<!--页头-->
+		<header>
+			<!--顶部导航条-->
+			<nav class="navbar navbar-inverse">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86754321</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+			        <li><a href="person.html"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="login.html"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="register.html"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
+			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+           <!-- <!--主导航条-->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#"><img src="./images/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">首页</a></li>
+			        <li><a href="#">我要投资</a></li>
+			        <li><a href="#">我要借款</a></li>
+			        <li><a href="#">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>    
+			        <li><a href="#">关于我们</a></li>
+			        <li><a href="#">新闻动态</a></li>
+			      </ul>
+			  </div>
+			</nav>
+		</header>
+		<!--注册内容开始-->
+		<div class="container">
+			<div class="panel panel-default" id="register">
+			    <div class="panel-heading">用户登录</div>
+			    <div class="panel-body">
+			        <p class="text-center btn-lg">请填写登录信息，点击“立即登录”即可</p>
+			        <form id="loginForm" class="form-horizontal">
+					  <div class="form-group">
+					    <label for="username" class="col-sm-4 control-label">用户名</label>
+					    <div class="col-sm-4">
+					      <input type="text" class="form-control" id="username"  name="username">
+					    </div>
+					    <div class="col-sm-4"></div>
+					  </div>
+					  <div class="form-group">
+					    <label for="inputPassword1" class="col-sm-4 control-label">密码</label>
+					    <div class="col-sm-4">
+					      <input type="password" class="form-control" id="inputPassword1" name="inputPassword1">
+					    </div>
+					    <div class="col-sm-4"></div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-4 col-sm-4">
+					      <button type="submit" class="btn btn-success">立即登录</button><a href="register.html">还没账号，马上注册账号</a>
+					    </div>
+					    <div class="col-sm-4"></div>
+					  </div>
+					</form>
+			    </div>
+			</div>
+		</div>
+		<!--登录消息模态框-->
+		<div class="modal fade" id="loginMsg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">用户登录信息</h4>
+		      </div>
+		      <div class="modal-body">
+		        <span id="loginIcon" class="glyphicon "></span><span id="loginCont"></span><span id="timeoutNum"></span>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--页尾-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!--版权信息-->
+					<div class="col-lg-8 col-md-8 col-xs-12">
+						<p>怎样存钱利息高、贷款买房流程、反担保是什么意思、按揭成数是什么意思、1万元一年利息是多少</p>
+						<p>版权所有： 2006-2018成都融金资有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段168号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@163.com</p>
+						<p><a href="#">蜀ICP备14030149号-1</a>  &emsp;<a href="#">蜀公网安备510114990541</a></p>
+					</div>
+					<!--官方微博-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微博:</p>
+						<p><img class="img-responsive" src="images/sina.png"/></p>
+						<p><img class="img-responsive" src="images/tecent.png"/></p></p>
+					</div>
+					<!--官方微信-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微信:</p>
+						<p><img class="img-responsive" src="images/single.png"/></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script>
+			$(".navbar-right li").on("click",function(){
+				$(this).addClass("active").siblings("li").removeClass("active");
+			});
+			$(function () {
+			  $('[data-toggle="tooltip"]').tooltip();
+			  //使用bootstrapvalidator验证表单
+			  $('#loginForm')
+		        .bootstrapValidator({
+		            message: 'This value is not valid',//全局的消息提示
+		            feedbackIcons: {
+		                valid: 'glyphicon glyphicon-ok',//显示验证成功时的小图标
+		                invalid: 'glyphicon glyphicon-remove',//显示验证失败时的小图标
+		                validating: 'glyphicon glyphicon-refresh'//等待验证的图标
+		            },
+		            //验证表单字段
+		            fields: {
+		                username: {
+		                    message: 'The username is not valid',//当前字段的提示信息
+		                    validators: {
+		                        notEmpty: {
+		                            message: '必填信息，用户名不能为空'
+		                        },
+		                        stringLength: {
+		                            min: 6,
+		                            max: 18,
+		                            message: '用户名长度为6到18位'
+		                        },
+		                        /*remote: {
+		                            url: 'remote.php',
+		                            message: 'The username is not available'
+		                        },*/
+		                        regexp: {
+		                            regexp: /^[a-zA-Z0-9_]+$/,
+		                            message: '用户名必须是大小写英文字母、数字、下划线组成'
+		                        }
+		                    }
+		                },
+		                //密码
+		                inputPassword1: {
+		                    validators: {
+		                        notEmpty: {
+		                            message: '密码长度不能为空'
+		                        },
+		                        stringLength: {
+		                            min: 6,
+		                            max: 18,
+		                            message: '用户名长度为6到18位'
+		                        },
+		                    }
+		                }
+		                
+		            }
+		        })
+		        //前端静态验证后向后端发送AJAX请求
+		        .on('success.form.bv', function(e) {
+		            // 阻止表单默认提交行为
+		            e.preventDefault();
+		            // 获取事件源
+		            var $form = $(e.target);
+		            // 获取验证插件bootstrapValidator
+//		            $.get(url, [data], [callback], [type])
+//			            url:待载入页面的URL地址
+//						data:待发送 Key/value 参数。
+//						callback:载入成功时回调函数。
+//						type:返回内容格式，xml, html, script, json, text, _default。
+		            var bv = $form.data('bootstrapValidator');
+		            // 发送AJAX请求到后端 
+		            var sendData = $form.serialize();
+		            $.get("./server/loginCheck.json", sendData, function(result) {
+		                console.log("服务器将返回的数据是：",result);
+		                //{isSuccess: true, message: "恭喜你，用户注册成功！"}
+		                //根据服务器返回结果处理前台数据
+		                if(result.isSuccess){
+		                	//验证通过
+		                	//alert(result.message);
+		                	//消息提示文字
+		                	$("#loginCont").text(result.message);
+		                	//添加提示图标
+		                	$("#loginIcon").addClass("glyphicon-ok");
+		                	//显示模态框
+		                	$("#loginMsg").modal('show');
+		                	//页面倒计时效果并跳转
+		                	var timeNum = 5;
+		                	$("#timeoutNum").html("等待<b>"+timeNum+"</b>秒后跳转到登录页面！！！");
+		                	var timeId = setInterval(function(){
+		                		timeNum--;
+		                		$("#timeoutNum").html("等待<b>"+timeNum+"</b>秒后跳转到登录页面！！！");
+		                		if(timeNum==0){
+		                			clearInterval(timeId);
+		                			location.href="person.html";
+		                		}
+		                	},1000);
+		                }else{
+		                	//验证失败
+		                	//alert(result.message);
+		                	//消息提示文字
+		                	$("#loginCont").text(result.message);
+		                	//添加提示图标
+		                	$("#loginIcon").addClass("glyphicon-remove");
+		                	//显示模态框
+		                	$("#loginMsg").modal('show');
+		                }
+		            }, 'json');
+		        });
+			
+			})
+		</script>
+	</body>
+</html>

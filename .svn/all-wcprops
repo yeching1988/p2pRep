@@ -5,7 +5,7 @@ V 18
 K 25
 svn:wc:ra_dav:version-url
 V 28
-/svn/p2p/!svn/ver/16/codeGit
+/svn/p2p/!svn/ver/18/codeGit
 END
 .bowerrc
 K 25
@@ -25,6 +25,12 @@ svn:wc:ra_dav:version-url
 V 40
 /svn/p2p/!svn/ver/9/codeGit/package.json
 END
+personCent.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/p2p/!svn/ver/18/codeGit/personCent.html
+END
 bower.json
 K 25
 svn:wc:ra_dav:version-url
@@ -35,7 +41,7 @@ register.html
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/p2p/!svn/ver/15/codeGit/register.html
+/svn/p2p/!svn/ver/18/codeGit/register.html
 END
 package-lock.json
 K 25
@@ -47,7 +53,13 @@ index.html
 K 25
 svn:wc:ra_dav:version-url
 V 39
-/svn/p2p/!svn/ver/15/codeGit/index.html
+/svn/p2p/!svn/ver/18/codeGit/index.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/p2p/!svn/ver/18/codeGit/login.html
 END
 README.md
 K 25
@@ -59,5 +71,5 @@ template.html
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/p2p/!svn/ver/15/codeGit/template.html
+/svn/p2p/!svn/ver/18/codeGit/template.html
 END

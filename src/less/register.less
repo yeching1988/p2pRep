@@ -2,28 +2,26 @@
 @import url("public.less");
 @import url("header.less");
 //注册样式开始
-#register .panel-body{
-    width:600px;
-    margin: 0 auto;
+#myModal .modal-body{
+    height: 500px;
+    overflow-y:scroll;
 }
-#register .panel-body h4{
-    text-align:center;
-    margin: 20px 0;
+.panel .panel-body .btn{
+    margin-right: 20px;
 }
-#register form .form-group p{
-    margin-top: 10px;
+#regMsg .modal-body .glyphicon{
+    font-size: 40px;
 }
-#register #userCode{
-    padding-top: 35px;
+#regMsg .modal-body .glyphicon-ok{
+    color:green;
 }
-#register form .agree{
-    text-align: center;
+#regMsg .modal-body .glyphicon-remove{
+    color:red;
 }
-#register form input{
-    width:460px;
-}
-#register form .agree button{
-    margin-right: 30px;
+#regMsg .modal-body #timeoutNum b{
+    color:green;
+    font-size: 30px;
+    font-weight: bold;
 }
 //引入页脚
 @import url("footer.less");
