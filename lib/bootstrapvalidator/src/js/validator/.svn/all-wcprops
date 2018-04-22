@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator
+END
+greaterThan.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/greaterThan.js
+END
+different.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/different.js
+END
+sedol.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/sedol.js
+END
+stringLength.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/stringLength.js
+END
+step.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/step.js
+END
+color.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/color.js
+END
+meid.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/meid.js
+END
+notEmpty.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/notEmpty.js
+END
+siren.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/siren.js
+END
+lessThan.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/lessThan.js
+END
+hexColor.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/hexColor.js
+END
+imo.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/imo.js
+END
+hex.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/hex.js
+END
+base64.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/base64.js
+END
+siret.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/siret.js
+END
+blank.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/blank.js
+END
+between.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/between.js
+END
+regexp.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/regexp.js
+END
+vat.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/vat.js
+END
+isbn.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/isbn.js
+END
+identical.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/identical.js
+END
+id.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/id.js
+END
+callback.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/callback.js
+END
+vin.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/vin.js
+END
+zipCode.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/zipCode.js
+END
+uri.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/uri.js
+END
+isin.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/isin.js
+END
+stringCase.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/stringCase.js
+END
+ean.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/ean.js
+END
+rtn.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/rtn.js
+END
+creditCard.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/creditCard.js
+END
+ismn.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/ismn.js
+END
+uuid.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/uuid.js
+END
+ip.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/ip.js
+END
+iban.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/iban.js
+END
+phone.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/phone.js
+END
+issn.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/issn.js
+END
+date.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/date.js
+END
+file.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/file.js
+END
+imei.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/imei.js
+END
+cusip.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/cusip.js
+END
+digits.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/digits.js
+END
+grid.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/grid.js
+END
+choice.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/choice.js
+END
+remote.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/remote.js
+END
+integer.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/integer.js
+END
+emailAddress.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/emailAddress.js
+END
+cvv.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/cvv.js
+END
+mac.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/mac.js
+END
+numeric.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/src/js/validator/numeric.js
+END

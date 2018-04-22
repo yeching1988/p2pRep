@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 44
-/svn/p2p/!svn/ver/13/codeGit/bootstrap/nuget
+V 50
+/svn/p2p/!svn/ver/11/trunk/p2pCode/bootstrap/nuget
 END
 MyGet.ps1
 K 25
 svn:wc:ra_dav:version-url
-V 54
-/svn/p2p/!svn/ver/13/codeGit/bootstrap/nuget/MyGet.ps1
+V 60
+/svn/p2p/!svn/ver/11/trunk/p2pCode/bootstrap/nuget/MyGet.ps1
 END
 bootstrap.nuspec
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/p2p/!svn/ver/13/codeGit/bootstrap/nuget/bootstrap.nuspec
+V 67
+/svn/p2p/!svn/ver/11/trunk/p2pCode/bootstrap/nuget/bootstrap.nuspec
 END
 bootstrap.less.nuspec
 K 25
 svn:wc:ra_dav:version-url
-V 66
-/svn/p2p/!svn/ver/13/codeGit/bootstrap/nuget/bootstrap.less.nuspec
+V 72
+/svn/p2p/!svn/ver/11/trunk/p2pCode/bootstrap/nuget/bootstrap.less.nuspec
 END

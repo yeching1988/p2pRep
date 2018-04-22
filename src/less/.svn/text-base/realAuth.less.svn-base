@@ -1,0 +1,51 @@
+//引入公共部分
+@import url("public.less");
+@import url("header.less");
+@import url("global.less");
+body{
+    padding: 0;
+    margin: 0;
+}
+//个人中心样式开始
+//左侧部分开始
+#leftSide{
+    .panel{
+        .panel-title{
+           text-indent: 30px;
+        }
+        .panel-body{
+            padding: 0;
+            ul{
+                li{
+                    line-height: 38px;
+                    text-indent: 55px;
+                }
+                li.active{
+                    background-color:@color_blueMenu;
+                    a{
+                        color:@color_fff;
+                    }
+                }
+            }
+        }
+    }
+}
+//右侧部分开始
+#rightSide .form-group #viewExample{
+    position: relative;
+    top:60px;
+    left:20px;
+}
+#rightSide .form-group .idCardItem{
+    height: 150px;
+    width: 120px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+#rightSide .form-group .usernames{
+    padding-top: 7px;
+}
+//引入页脚
+@import url("footer.less");

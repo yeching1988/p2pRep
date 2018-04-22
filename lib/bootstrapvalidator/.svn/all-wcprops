@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/LICENSE.txt
+END
+.bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/.bower.json
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/.gitignore
+END
+bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/p2p/!svn/ver/18/trunk/p2pCode/lib/bootstrapvalidator/bower.json
+END

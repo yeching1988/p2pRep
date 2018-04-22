@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>p2p响应式金融借贷平台-个人中心</title>
+		<!--1.添加视口-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		
+		<!--2.引入bootstrap核心样式-->
+		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--引入图标字体-->
+		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.css"/
+		<!--自己定义修改样式，必须放在最靠近head地方-->
+		<link rel="stylesheet" href="./dist/css/realAuth.css"/>
+		<!--显示sass修改后对应的tests.css样式-->
+		<!--<link rel="stylesheet" href="./dist/css/tests.css"/>-->
+		<!--3. 让IE8兼容bootstrap-->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--4.引入jquery库-->
+		<script type="text/javascript" src="jquery/jquery.min.js"></script>
+		<!--5.引入bootstrapjs库-->
+		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--页头-->
+		<header>
+			<!--顶部导航条-->
+			<nav class="navbar navbar-inverse">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86754321</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+			        <li><a href="person.html"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="login.html"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="register.html"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
+			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+           <!-- <!--主导航条-->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#"><img src="./images/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html">首页</a></li>
+			        <li><a href="invest.html">我要投资</a></li>
+			        <li><a href="borrow.html">我要借款</a></li>
+			        <li><a href="person.html">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>    
+			        <li><a href="#">关于我们</a></li>
+			        <li><a href="#">新闻动态</a></li>
+			      </ul>
+			  </div>
+			</nav>
+		</header>
+		<!--个人中心内容开始-->
+		<div class="container">
+			<div class="row" id="mainContent">
+				<!--左侧导航菜单-->
+			    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-6" id="leftSide">
+			    	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingOne">
+					      <h4 class="panel-title">
+					        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					            投资项目
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					      <div class="panel-body">
+					        <ul>
+					        	<li class="active"><a href="#">进行中项目</a></li>
+					        	<li><a href="#">审批中明细</a></li>
+					        	<li><a href="#">已完成明细</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingTwo">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					                               借款项目
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					      <div class="panel-body">
+					        <ul>
+					        	<li class="active"><a href="#">借款项目</a></li>
+					        	<li><a href="#">还款明细</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					                             我的账户
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					      <div class="panel-body">
+					        <ul>
+					        	<li><a href="person.html">账户信息</a></li>
+					        	<li class="active"><a href="realAuth.html">实名认证</a></li>
+					        	<li><a href="#">银行卡管理</a></li>
+					        	<li><a href="#">登录记录</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingFour">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					                               资产详情
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+					      <div class="panel-body">
+					        <ul>
+					        	<li class="active"><a href="#">账户流水</a></li>
+					        	<li><a href="#">充值明细</a></li>
+					        	<li><a href="#">提现记录</a></li>
+					        	<li><a href="#">收款明细</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingFive">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+					                             个人资料
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+					      <div class="panel-body">
+					        <ul>
+					        	<li class="active"><a href="#">个人信息</a></li>
+					        	<li><a href="#">个人设置</a></li>
+					        	<li><a href="#">个人充值</a></li>
+					        	<li><a href="#">个人缴费</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			    <!--右侧功能页面-->
+			    <div class="col-lg-9 col-md-9 col-xs-12 col-sm-6" id="rightSide">
+			    	<div class="panel panel-default">
+			    	  <div class="panel-heading">实名认证</div>
+					  <div class="panel-body">
+					    <!--右侧表格板块-->
+					    <form class="form-horizontal" id="reanAuthForm" method="post">
+					      <div class="form-group">
+						    <p class="text-danger text-center">为保护您账户安全，实名认证成功之后不能修改信息，请认真填写！</p>
+						  </div>
+						  <div class="form-group">
+						    <label for="userName" class="col-sm-4 control-label col-xs-4 usernames">用户名</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <p class="form-control-static">小强</p>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="username" class="col-sm-4 control-label col-xs-4">姓名</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="sex" class="col-sm-4 col-xs-4 control-label">性别</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <select class="form-control" id="sex" name="sex" size="1">
+						      	<option value="0">男</option>
+						      	<option value="1">女</option>
+						      </select>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="idtype" class="col-sm-4 col-xs-4 control-label">证件类型</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <select class="form-control" id="idtype" name="idtype" size="1">
+						      	<option value="0">身份证</option>
+						      	<option value="1">驾驶证</option>
+						      	<option value="2">学生证</option>
+						      </select>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="idnumber" class="col-sm-4 col-xs-4 control-label">证件号码</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <input type="text" class="form-control" id="idnumber" placeholder="请输入证件号码" name="idnumber">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="birthdate" class="col-sm-4 col-xs-4 control-label">出生日期</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <input type="text" class="form-control" id="birthdate" placeholder="请输入出生年月日" name="birthdate">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="address" class="col-sm-4 col-xs-4 control-label">证件地址</label>
+						    <div class="col-sm-8 col-xs-8">
+						      <input type="text" class="form-control" id="address" placeholder="请输入证件地址" name="address">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="address" class="col-sm-4 col-xs-4 control-label">身份证照片</label>
+						    <div class="col-sm-8 col-xs-8 clearfix">
+						    	<p class="text-help text-primary">请点击“选择图片”,选择证件的正反两面照片。</p>
+						    	<a href="javascript:;" id="viewExample" class="col-sm-offset-8 col-xs-offset-8 col-xs-5">查看样板</a>
+						    	<div class="idCardItem pull-left col-sm-12 col-xs-7 col-lg-6">
+						    		<div>
+						    			<a href="javascript:;" id="uploadBtn1">上传正面</a>
+						    		</div>
+						    		<img src="" alt="" id="uploadImg1" class="uploadImg"/>
+						    		<input type="hidden" value="" name="papers01">
+						    	</div>
+						    	<div class="idCardItem pull-left col-sm-12 col-xs-7 col-lg-6">
+						    		<div>
+						    			<a href="javascript:;" id="uploadBtn1">上传反面</a>
+						    		</div>
+						    		<img src="" alt="" id="uploadImg1" class="uploadImg"/>
+						    		<input type="hidden" value="" name="papers02">
+						    	</div>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <button type="submit" class="btn btn-primary col-sm-offset-4 col-xs-offset-4" id="asubmit" data-loading-text="正在提交"><i class="icon-ok"></i>提交认证</button>
+						  </div>
+						</form>
+					  </div>
+					</div>
+			    </div>
+			</div>
+		</div>
+		<!--页尾-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!--版权信息-->
+					<div class="col-lg-8 col-md-8 col-xs-12">
+						<p>怎样存钱利息高、贷款买房流程、反担保是什么意思、按揭成数是什么意思、1万元一年利息是多少</p>
+						<p>版权所有： 2006-2018成都融金资有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段168号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@163.com</p>
+						<p><a href="#">蜀ICP备14030149号-1</a>  &emsp;<a href="#">蜀公网安备510114990541</a></p>
+					</div>
+					<!--官方微博-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微博:</p>
+						<p><img class="img-responsive" src="images/sina.png"/></p>
+						<p><img class="img-responsive" src="images/tecent.png"/></p></p>
+					</div>
+					<!--官方微信-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微信:</p>
+						<p><img class="img-responsive" src="images/single.png"/></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--自定义的特效-->
+		<script type="text/javascript" src="scripts/p2pEffects.js"></script>
+	</body>
+</html>

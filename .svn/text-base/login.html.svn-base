@@ -8,6 +8,8 @@
 		
 		<!--2.引入bootstrap核心样式-->
 		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--引入bootstrap的验证css插件-->
+		<link rel="stylesheet" href="lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css" />
 		<!--引入图标字体-->
 		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.css"/
 		<!--自己定义修改样式，必须放在最靠近head地方-->
@@ -25,6 +27,8 @@
 		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
 		<!--5.引入bootstrapjs库-->
 		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--引入bootstrap的验证js插件-->
+		<script type="text/javascript" src="lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
 		<!--页头-->
 		<header>
 			<!--顶部导航条-->
@@ -43,10 +47,10 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#"><i class="fa fa-home"></i>首页</a></li>
-			        <li><a href="#"><i class="fa fa-user"></i>个人中心</a></li>
-			        <li><a href="#"><i class="fa fa-sign"></i>会员登录</a></li>
-			        <li><a href="#"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+			        <li><a href="person.html"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="login.html"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="register.html"><i class="fa fa-registered"></i>会员注册</a></li>
 			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
 			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
 			      </ul>
@@ -77,29 +81,47 @@
 		<!--注册内容开始-->
 		<div class="container">
 			<div class="panel panel-default" id="register">
-			    <div class="panel-heading">用户注册</div>
+			    <div class="panel-heading">用户登录</div>
 			    <div class="panel-body">
-			        <h4>请输入用户名和密码</h4>
-			        <form class="form-horizontal">
+			        <p class="text-center btn-lg">请填写登录信息，点击“立即登录”即可</p>
+			        <form id="loginForm" class="form-horizontal">
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
-					    <div class="col-sm-10">
-					      <input type="email" class="form-control col-lg-3" id="inputEmail3">
+					    <label for="username" class="col-sm-4 control-label">用户名</label>
+					    <div class="col-sm-4">
+					      <input type="text" class="form-control" id="username"  name="username">
 					    </div>
+					    <div class="col-sm-4"></div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
-					    <div class="col-sm-10">
-					      <input type="password" class="form-control" id="inputPassword3">
+					    <label for="inputPassword1" class="col-sm-4 control-label">密码</label>
+					    <div class="col-sm-4">
+					      <input type="password" class="form-control" id="inputPassword1" name="inputPassword1">
 					    </div>
+					    <div class="col-sm-4"></div>
 					  </div>
-					  <p class="agree">
-					  	<button type="button" class="btn btn-success  btn-lg">登录</button>
-					  	<a href="#">新用户，马上注册</a>
-					  </p>
+					  <div class="form-group">
+					    <div class="col-sm-offset-4 col-sm-4">
+					      <button type="submit" class="btn btn-success">立即登录</button><a href="register.html">还没账号，马上注册账号</a>
+					    </div>
+					    <div class="col-sm-4"></div>
+					  </div>
 					</form>
 			    </div>
 			</div>
+		</div>
+		<!--登录消息模态框-->
+		<div class="modal fade" id="loginMsg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">用户登录信息</h4>
+		      </div>
+		      <div class="modal-body">
+		        <span id="loginIcon" class="glyphicon "></span><span id="loginCont"></span><span id="timeoutNum"></span>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 		<!--页尾-->
 		<footer>
@@ -127,14 +149,7 @@
 				</div>
 			</div>
 		</footer>
-		
-		<script>
-			$(".navbar-right li").on("click",function(){
-				$(this).addClass("active").siblings("li").removeClass("active");
-			});
-			$(function () {
-			  $('[data-toggle="tooltip"]').tooltip();
-			})
-		</script>
+		<!--自定义的特效-->
+		<script type="text/javascript" src="scripts/p2pCheckForm.js"></script>
 	</body>
 </html>

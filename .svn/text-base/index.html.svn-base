@@ -20,7 +20,7 @@
 	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	</head>
-	<body style="height: 4000px;">
+	<body>
 		<!--4.引入jquery库-->
 		<script type="text/javascript" src="jquery/jquery-1.11.0.js"></script>
 		<!--5.引入bootstrapjs库-->
@@ -44,9 +44,9 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="#"><i class="fa fa-home"></i>首页</a></li>
-			        <li><a href="#"><i class="fa fa-user"></i>个人中心</a></li>
-			        <li><a href="#"><i class="fa fa-sign"></i>会员登录</a></li>
-			        <li><a href="#"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="person.html"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="login.html"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="register.html"><i class="fa fa-registered"></i>会员注册</a></li>
 			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
 			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
 			      </ul>
@@ -63,10 +63,10 @@
 			
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			      <ul class="nav navbar-nav">
-			        <li><a href="#">首页</a></li>
-			        <li><a href="#">我要投资</a></li>
-			        <li><a href="#">我要借款</a></li>
-			        <li><a href="#">个人中心</a></li>
+			        <li><a href="index.html">首页</a></li>
+			        <li><a href="invest.html">我要投资</a></li>
+			        <li><a href="borrow.html">我要借款</a></li>
+			        <li><a href="personCent.html">个人中心</a></li>
 			        <li><a href="#">新手指引</a></li>    
 			        <li><a href="#">关于我们</a></li>
 			        <li><a href="#">新闻动态</a></li>
@@ -266,7 +266,7 @@
 						<p>怎样存钱利息高、贷款买房流程、反担保是什么意思、按揭成数是什么意思、1万元一年利息是多少</p>
 						<p>版权所有： 2006-2018成都融金资有限公司</p>
 						<p>地  址： 成都市高新区府城大道西段168号天府新谷1号楼620-625</p>
-						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@163.com</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： susanshi@163.com</p>
 						<p><a href="#">蜀ICP备14030149号-1</a>  &emsp;<a href="#">蜀公网安备510114990541</a></p>
 					</div>
 					<!--官方微博-->

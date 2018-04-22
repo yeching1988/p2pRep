@@ -1,7 +1,7 @@
 10
 
 dir
-8
+22
 http://pc-20171222pppt:81/svn/p2p/trunk/p2pCode/lib/bootstrap
 http://pc-20171222pppt:81/svn/p2p
 
@@ -26,39 +26,8 @@ has-props
 
 30156ae3-1c31-cb4a-9143-68d935d0eaf5
 
-ISSUE_TEMPLATE.md
-file
-
-
-
-
-2018-04-16T05:22:26.266958Z
-db34f9d764be95c966d3cfe7cb39aecd
-2018-04-16T07:51:29.252222Z
-8
-zhangsan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1143
+nuget
+dir
 
 LICENSE
 file
@@ -94,17 +63,14 @@ zhangsan
 
 1085
 
-nuget
-dir
-
-bower.json
+ISSUE_TEMPLATE.md
 file
 
 
 
 
-2018-04-16T05:22:26.276958Z
-e6a798264bb7d92da07c084cea0c918b
+2018-04-16T05:22:26.266958Z
+db34f9d764be95c966d3cfe7cb39aecd
 2018-04-16T07:51:29.252222Z
 8
 zhangsan
@@ -129,7 +95,7 @@ zhangsan
 
 
 
-641
+1143
 
 CHANGELOG.md
 file
@@ -164,6 +130,40 @@ zhangsan
 
 
 425
+
+bower.json
+file
+
+
+
+
+2018-04-16T05:22:26.276958Z
+e6a798264bb7d92da07c084cea0c918b
+2018-04-16T07:51:29.252222Z
+8
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+641
 
 fonts
 dir
@@ -202,6 +202,9 @@ zhangsan
 
 8056
 
+grunt
+dir
+
 Gemfile.lock
 file
 
@@ -235,12 +238,6 @@ zhangsan
 
 
 903
-
-grunt
-dir
-
-dist
-dir
 
 package.json
 file
@@ -276,6 +273,9 @@ zhangsan
 
 2200
 
+dist
+dir
+
 .bower.json
 file
 
@@ -310,9 +310,6 @@ zhangsan
 
 939
 
-less
-dir
-
 package.js
 file
 
@@ -346,6 +343,9 @@ zhangsan
 
 
 964
+
+less
+dir
 
 Gemfile
 file

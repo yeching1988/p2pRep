@@ -1,11 +1,71 @@
 K 25
 svn:wc:ra_dav:version-url
-V 42
-/svn/p2p/!svn/ver/8/trunk/p2pCode/src/less
+V 43
+/svn/p2p/!svn/ver/22/trunk/p2pCode/src/less
 END
-publics.less
+borrow.less
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/p2p/!svn/ver/8/trunk/p2pCode/src/less/publics.less
+/svn/p2p/!svn/ver/22/trunk/p2pCode/src/less/borrow.less
+END
+public.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/14/trunk/p2pCode/src/less/public.less
+END
+footer.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/17/trunk/p2pCode/src/less/footer.less
+END
+global.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/20/trunk/p2pCode/src/less/global.less
+END
+register.less
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p2p/!svn/ver/18/trunk/p2pCode/src/less/register.less
+END
+realAuth.less
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p2p/!svn/ver/22/trunk/p2pCode/src/less/realAuth.less
+END
+person.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/20/trunk/p2pCode/src/less/person.less
+END
+index.less
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p2p/!svn/ver/14/trunk/p2pCode/src/less/index.less
+END
+header.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/14/trunk/p2pCode/src/less/header.less
+END
+login.less
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p2p/!svn/ver/18/trunk/p2pCode/src/less/login.less
+END
+invest.less
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/22/trunk/p2pCode/src/less/invest.less
 END

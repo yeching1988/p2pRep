@@ -1,0 +1,28 @@
+//引入公共部分
+@import url("public.less");
+@import url("header.less");
+//注册样式开始
+
+#myModal .modal-body{
+    height: 500px;
+    overflow-y:scroll;
+}
+.panel .panel-body .btn{
+    margin-right: 20px;
+}
+#loginMsg .modal-body .glyphicon{
+    font-size: 40px;
+}
+#loginMsg .modal-body .glyphicon-ok{
+    color:green;
+}
+#loginMsg .modal-body .glyphicon-remove{
+    color:red;
+}
+#loginMsg .modal-body #timeoutNum b{
+    color:green;
+    font-size: 30px;
+    font-weight: bold;
+}
+//引入页脚
+@import url("footer.less");

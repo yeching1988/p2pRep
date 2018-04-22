@@ -1,0 +1,11 @@
+@import url("global.less");
+//页脚样式
+footer{
+    background-color: #F0F0F0;
+    padding: 30px 0;
+    margin-top: 20px;
+   
+}
+footer .container p a{
+    color:@color_bluedark;
+}

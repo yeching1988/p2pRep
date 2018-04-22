@@ -1,6 +1,6 @@
-@color:blue;
-@size:20px;
+$color:blue;
+$size:30px;
 body{
-    background-color: @color;
-    font-size: @size;
+    background-color:$color;
+    font-size: $size;
 }

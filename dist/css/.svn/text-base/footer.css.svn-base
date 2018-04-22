@@ -1,0 +1,10 @@
+footer {
+  background-color: #F0F0F0;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+footer .container p a {
+  color: #2e8ece;
+}
+
+/*# sourceMappingURL=maps/footer.css.map */

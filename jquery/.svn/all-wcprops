@@ -1,11 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 35
-/svn/p2p/!svn/ver/13/codeGit/jquery
+V 41
+/svn/p2p/!svn/ver/20/trunk/p2pCode/jquery
 END
 jquery-1.11.0.js
 K 25
 svn:wc:ra_dav:version-url
-V 52
-/svn/p2p/!svn/ver/13/codeGit/jquery/jquery-1.11.0.js
+V 58
+/svn/p2p/!svn/ver/11/trunk/p2pCode/jquery/jquery-1.11.0.js
+END
+jquery.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p2p/!svn/ver/20/trunk/p2pCode/jquery/jquery.min.js
 END

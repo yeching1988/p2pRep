@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>p2p响应式金融借贷平台-用户注册</title>
+		<!--1.添加视口-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<!--2.引入bootstrap核心样式-->
+		<link rel="stylesheet" type="text/css" href="../../codeGit/lib/bootstrap/dist/css/bootstrap.css"/>
+		<!--引入bootstrap的验证css插件-->
+		<!--<link rel="stylesheet" href="lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css" />-->
+		<!--引入图标字体-->
+		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.css"/
+		<!--自己定义修改样式，必须放在最靠近head地方-->
+		<link rel="stylesheet" href="./dist/css/invest.css"/>
+		
+		
+		<!--显示sass修改后对应的tests.css样式-->
+		<!--<link rel="stylesheet" href="./dist/css/tests.css"/>-->
+		<!--3. 让IE8兼容bootstrap-->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--4.引入jquery库-->
+		<script type="text/javascript" src="jquery/jquery.min.js"></script>
+		<!--5.引入bootstrapjs库-->
+		<script type="text/javascript" src="../../codeGit/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!--引入bootstrap的验证js插件-->
+		<!--<script type="text/javascript" src="lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>-->
+		<!--页头-->
+		<header>
+			<!--顶部导航条-->
+			<nav class="navbar navbar-inverse">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86754321</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+			        <li><a href="person.html"><i class="fa fa-user"></i>个人中心</a></li>
+			        <li><a href="login.html"><i class="fa fa-sign"></i>会员登录</a></li>
+			        <li><a href="register.html"><i class="fa fa-registered"></i>会员注册</a></li>
+			        <li><a href="#"><i class="fa fa-question-circle"></i>帮助中心</a></li>
+			        <li><a href="#" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>"><i class="fab fa-weixin"></i>联系客户</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+           <!-- <!--主导航条-->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#"><img src="./images/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html">首页</a></li>
+			        <li><a href="invest.html">我要投资</a></li>
+			        <li><a href="borrow.html">我要借款</a></li>
+			        <li><a href="person.html">个人中心</a></li>
+			        <li><a href="#">新手指引</a></li>    
+			        <li><a href="#">关于我们</a></li>
+			        <li><a href="#">新闻动态</a></li>
+			      </ul>
+			  </div>
+			</nav>
+		</header>
+		<!--我要投资内容开始-->
+		<div class="container" id="investCont">
+			<h4>投资列表</h4>
+			<form class="form-inline col-md-12 col-xs-12 col-sm-12" id="searchForm">
+			  <span>标的状态</span>
+			  <div class="form-group">
+			    <ul class="nav nav-pills">
+				  <li role="presentation" class="active"><a href="#">全部</a></li>
+				  <li role="presentation"><a href="#">招标中</a></li>
+				  <li role="presentation"><a href="#">还款中</a></li>
+				</ul>
+			  </div>
+			</form>
+			<!--投资表格-->
+			<table class="table col-lg-12 col-md-12 col-xs-12">
+		      <thead>
+		        <tr>
+		          <th class="investPerson">借款人</th>
+		          <th class="investTitle">借款标题</th>
+		          <th>年利率</th>
+		          <th>金额</th>
+		          <th class="investType">还款方式</th>
+		          <th>进度</th>
+		          <th>操作</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		        <tr>
+		          <th scope="row">ZS</th>
+		          <td class="investTitle">给我2000度过难关</td>
+		          <td>10.00%</td>
+		          <td>2000.00</td>
+		          <td class="investType">按月分期还款</td>
+		          <td>100%</td>
+		          <td><button type="button" class="btn btn-danger btn-sm">查看</button></td>
+		        </tr>
+		        
+		      </tbody>
+		    </table>
+		</div>
+		
+		<!--页尾-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!--版权信息-->
+					<div class="col-lg-8 col-md-8 col-xs-12">
+						<p>怎样存钱利息高、贷款买房流程、反担保是什么意思、按揭成数是什么意思、1万元一年利息是多少</p>
+						<p>版权所有： 2006-2018成都融金资有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段168号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@163.com</p>
+						<p><a href="#">蜀ICP备14030149号-1</a>  &emsp;<a href="#">蜀公网安备510114990541</a></p>
+					</div>
+					<!--官方微博-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微博:</p>
+						<p><img class="img-responsive" src="images/sina.png"/></p>
+						<p><img class="img-responsive" src="images/tecent.png"/></p></p>
+					</div>
+					<!--官方微信-->
+					<div class="col-lg-2 col-md-2 col-xs-6">
+						<p>官方微信:</p>
+						<p><img class="img-responsive" src="images/single.png"/></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

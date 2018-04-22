@@ -1,0 +1,41 @@
+//引入公共部分
+@import url("public.less");
+@import url("header.less");
+//借款样式样式开始
+#borrowCont{
+    margin: 30px auto;
+}
+#borrowCont .panel{
+    background-color: #40d47e;
+}
+#borrowCont .borrowTwo{
+    background-color: #ec7e20;
+}
+#borrowCont .borrowThree{
+    background-color: #2ca2ee;
+}
+#borrowCont .panel-body{
+    font-size: 22px;
+    color: @color_fff;
+}
+#borrowCont .row p:nth-of-type(1){
+    font-size: 18px;
+}
+#borrowCont .row p:nth-of-type(2){
+    font-size: 14px;
+    margin-top: 10px;
+}
+#borrowCont .row ul li{
+    background: url(../../images/sequare.png) no-repeat;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+#borrowCont .row button{
+    background-color: #00a8ff;
+    display: block;
+    border-radius:22px;
+    font-size: 14px;
+    margin:20px auto 30px auto;
+}
+//引入页脚
+@import url("footer.less");

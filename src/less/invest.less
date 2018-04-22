@@ -1,0 +1,31 @@
+//引入公共部分
+@import url("public.less");
+@import url("header.less");
+//投资样式开始
+#investCont h4{
+    text-indent: 14px;
+}
+#investCont form span{
+    margin:10px 20px 20px 0;
+    font-size: 18px;
+}
+#searchForm .form-group li a{
+    font-size: 18px;
+}
+//表格样式开始
+#investCont table{
+    margin: 20px auto;
+}
+#investCont table th,td{
+    font-size: 16px;
+}
+@media all and(max-width:420px){
+   #investCont table .investType,.investTitle{
+       display: none;
+   }
+   #investCont table .investPerson{
+       overflow: hidden;
+   }
+}
+//引入页脚
+@import url("footer.less");

@@ -1,14 +1,14 @@
 10
 
 dir
-18
-http://pc-20171222pppt:81/svn/p2p/codeGit/jquery
+22
+http://pc-20171222pppt:81/svn/p2p/trunk/p2pCode/jquery
 http://pc-20171222pppt:81/svn/p2p
 
 
 
-2018-04-17T10:40:46.916866Z
-13
+2018-04-20T13:19:17.914923Z
+20
 zhangsan
 has-props
 
@@ -34,8 +34,8 @@ file
 
 2018-04-16T12:20:31.182488Z
 3b80424646a7ecdb19273d86800c1ac0
-2018-04-17T10:40:46.916866Z
-13
+2018-04-17T01:15:52.115652Z
+11
 zhangsan
 
 
@@ -59,4 +59,38 @@ zhangsan
 
 
 282944
+
+jquery.min.js
+file
+
+
+
+
+2018-04-20T12:14:42.495262Z
+a09e13ee94d51c524b7e2a728c7d4039
+2018-04-20T13:19:17.914923Z
+20
+zhangsan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+86927
 
